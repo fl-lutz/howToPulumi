@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using Pulumi;
 
-namespace howToPulumi.helpers;
+namespace chap4.helpers;
 
 public static class Tags
 {

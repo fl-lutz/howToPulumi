@@ -1,0 +1,4 @@
+encryptionsalt: v1:RxcH7nsUwWg=:v1:psni+8h5wsRGT/O3:FWGY5BwRJtek1lhirJPcKulvflljdg==
+config:
+  azure-native:location: westeurope
+  howToPulumi:location: westeurope

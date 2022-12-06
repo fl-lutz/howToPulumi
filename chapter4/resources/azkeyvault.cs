@@ -3,9 +3,9 @@ using Pulumi;
 using Pulumi.AzureNative.Resources;
 using Pulumi.AzureNative.KeyVault;
 using Pulumi.AzureNative.KeyVault.Inputs;
-using howToPulumi.helpers;
+using chap4.helpers;
 
-namespace howToPulumi.resources;
+namespace chap4.resources;
 
 public static class AzKeyVault
 {

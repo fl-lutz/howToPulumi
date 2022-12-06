@@ -1,11 +1,14 @@
 ﻿using System.Collections.Generic;
 using Pulumi.AzureNative.Authorization;
 using Pulumi.AzureNative.KeyVault;
-using howToPulumi.resources;
+using chap4.resources;
 using Pulumi;
 
-return await Pulumi.Deployment.RunAsync(() =>
+namespace chap4;
+public class MyStack : Stack
 {
+    public MyStack(){
+
         var config = new Pulumi.Config();
         var tenantId = GetClientConfig.InvokeAsync().Result.TenantId;
         var subscriptionId = GetClientConfig.InvokeAsync().Result.SubscriptionId;
@@ -42,6 +45,6 @@ return await Pulumi.Deployment.RunAsync(() =>
             true,
             tenantId
         );
-
+    }
         #endregion
-});
+}

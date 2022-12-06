@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using Pulumi;
 using Pulumi.AzureNative.Resources;
-using howToPulumi.helpers;
+using chap4.helpers;
 
-namespace howToPulumi.resources;
+namespace chap4.resources;
 
 public static class AzResourceGroup
 {
